@@ -1,0 +1,23 @@
+{
+  "name": "akinkocrbbt/maps-conveyor",
+  "description": "Google Maps finding legs package inside between two locations.",
+  "type": "library",
+  "license": "MIT",
+  "autoload": {
+    "psr-4": {
+      "akinkoc\\MapsConveyor\\": "src/"
+    }
+  },
+  "authors": [
+    {
+      "name": "Akın Can KOÇ",
+      "email": "akin.koc@rbbt.com.tr"
+    }
+  ],
+  "minimum-stability": "dev",
+  "require": {
+    "guzzlehttp/guzzle": "7.5.x-dev",
+    "ext-mbstring": "*",
+    "php": ">=8.0"
+  }
+}
